@@ -684,3 +684,33 @@ form textarea { resize: vertical; }
 .subscribe-form input[type="submit"]:active, .subscribe-form input[type="submit"]:focus { border-color: #e39d6f; color: #e39d6f; }
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+.hero-slider .slide-subtitle {
+  color: #1f1f1f !important;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+.hero-slider .slide-title {
+  margin-bottom: 10px;
+}
+
+.hero-slider .flex-control-paging li a {
+  border: 2px solid #000;
+}
+
+.hero-slider .flex-control-paging li a.flex-active {
+  background-color: #000;
+}
+
+.alh-about p, .alh-about ul li {
+  color: #000;
+  font-size: 18px;
+}
+
+.contact-info {
+  margin: 0px auto 0;
+}
