@@ -714,3 +714,41 @@ form textarea { resize: vertical; }
 .contact-info {
   margin: 0px auto 0;
 }
+
+.menu-content {
+  display: flex;
+}
+
+.alh-menu {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.alh-address {
+  margin-top: 10px;
+}
+
+.alh-image-with-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.alh-image-with-text p {
+  width: 50%;
+}
+
+
+@media screen and (max-width: 767px) {
+  .hero-slider .slide-title {
+    font-size: 2.85714em;
+  }
+  .alh-image-with-text {
+    flex-direction: column;
+  }
+  .alh-image-with-text p {
+    width: 100%;
+  }
+}
+
